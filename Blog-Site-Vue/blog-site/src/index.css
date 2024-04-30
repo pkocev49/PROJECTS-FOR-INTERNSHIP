@@ -1,0 +1,13 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .myInput {
+    @apply text-white border-white w-full md:w-[600px]  bg-transparent placeholder-[#80461B] text-[15px] border-[2px]  p-[10px] rounded-[10px] mb-[10px] placeholder-white;
+  }
+  .myTextArea {
+    @apply text-white border-white w-full h-[100px] sm:h-[200px]  md:w-[600px] resize-none bg-transparent placeholder-[#80461B] text-[15px] border-[2px]  p-[10px] rounded-[10px]  mb-[10px] placeholder-white;
+  }
+}
